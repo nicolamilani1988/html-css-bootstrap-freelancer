@@ -1,7 +1,5 @@
-/* regole generali */
+/* debug */
 .row{
-  /* debug */
-  /* background-color: green; */
   border: 1px solid red;
 }
 
@@ -11,8 +9,13 @@
   border: 1px solid black;
 }
 
+/* regole generali */
 .container-fluid {
    padding: 0px;
+}
+
+#jumbotron *, #about *{
+  background-color: #1ABC9C;
 }
 
 .contenitore_sessanta{
