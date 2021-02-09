@@ -1,0 +1,26 @@
+/* regole generali */
+.row{
+  /* debug */
+  /* background-color: green; */
+  border: 1px solid red;
+}
+
+[class*="col-"]{
+  height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.container-fluid {
+   padding: 0px;
+}
+
+.contenitore_sessanta{
+  width: 60%;
+  margin: auto;
+}
+
+/* regole header */
+header{
+  background-color: #2C3E50;
+}
