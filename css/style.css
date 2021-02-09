@@ -1,4 +1,8 @@
 /* debug */
+.container{
+  border: 1px solid blue;
+}
+
 .row{
   border: 1px solid red;
 }
@@ -9,18 +13,13 @@
   border: 1px solid black;
 }
 
-.container{
-  border: 1px solid blue;
-}
+
 
 /* regole generali */
-#jumbotron, #about{
-  background-color: #1ABC9C;
+header, footer>:first-child{
+  background-color: #2C3E50;
 }
 
-
-
-/* regole header */
-header{
-  background-color: #2C3E50;
+#page_jumbotron, #about_us{
+  background-color: #1ABC9C;
 }
