@@ -16,8 +16,12 @@
 
 
 /* regole generali */
-header, footer>:first-child{
+header, footer>:last-child{
   background-color: #2C3E50;
+}
+
+footer>:first-child{
+  background-color: #3A546D;
 }
 
 #page_jumbotron, #about_us{
