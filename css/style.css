@@ -9,19 +9,16 @@
   border: 1px solid black;
 }
 
-/* regole generali */
-.container-fluid {
-   padding: 0px;
+.container{
+  border: 1px solid blue;
 }
 
-#jumbotron *, #about *{
+/* regole generali */
+#jumbotron, #about{
   background-color: #1ABC9C;
 }
 
-.contenitore_sessanta{
-  width: 60%;
-  margin: auto;
-}
+
 
 /* regole header */
 header{
