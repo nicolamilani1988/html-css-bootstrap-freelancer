@@ -9,16 +9,16 @@
 
 [class*="col-"]{
   height: 100px;
-  background-color: pink;
+  /* background-color: pink; */
   border: 1px solid black;
 }
 
 
-
 /* regole generali */
-header, footer>:last-child{
+footer>:last-child{
   background-color: #2C3E50;
 }
+
 
 footer>:first-child{
   background-color: #3A546D;
@@ -26,4 +26,27 @@ footer>:first-child{
 
 #page_jumbotron, #about_us{
   background-color: #1ABC9C;
+}
+
+/* regole header */
+header .navbar{
+  margin-bottom: 0;
+}
+
+header .navbar-default{
+  background-color: #2C3E50;
+}
+
+header .navbar-default .navbar-brand,
+header .navbar-default .navbar-nav > li > a{
+  color: white;
+  font-weight: bolder;
+}
+
+header .navbar-default .navbar-nav > li > a:hover{
+  color: #1ABC9C;
+}
+
+header .navbar-default .navbar-brand:hover{
+  color: white;
 }
