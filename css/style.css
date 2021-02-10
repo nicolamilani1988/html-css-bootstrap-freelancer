@@ -7,14 +7,20 @@
   border: 1px solid red;
 }
 
-[class*="col-"]{
-  height: 100px;
+[class*="col-"], .contenitore_jumbotron{
+  /* height: 100px; */
   /* background-color: pink; */
   border: 1px solid black;
 }
 
 
 /* regole generali */
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+
 footer>:last-child{
   background-color: #2C3E50;
 }
@@ -28,6 +34,31 @@ footer>:first-child{
   background-color: #1ABC9C;
 }
 
+.center_container{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.separation_icons{
+  height:30px;
+  line-height: 30px;
+}
+
+.customized_line{
+  background-color: white;
+  width: 10vw;
+  min-height: 3px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.standard_text{
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+
 /* regole header */
 header .navbar{
   margin-bottom: 0;
@@ -40,7 +71,7 @@ header .navbar-default{
 header .navbar-default .navbar-brand,
 header .navbar-default .navbar-nav > li > a{
   color: white;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 header .navbar-default .navbar-nav > li > a:hover{
@@ -49,4 +80,18 @@ header .navbar-default .navbar-nav > li > a:hover{
 
 header .navbar-default .navbar-brand:hover{
   color: white;
+}
+
+/* regole page_jumbotron */
+#page_jumbotron .center_container{
+    margin-top: 50px;
+}
+
+#page_jumbotron img{
+  width: 200px;
+  display: inline-block;
+}
+
+#page_jumbotron i{
+  margin:0 10px;
 }
