@@ -20,11 +20,9 @@ body{
   color: white;
 }
 
-
 footer>:last-child{
   background-color: #2C3E50;
 }
-
 
 footer>:first-child{
   background-color: #3A546D;
@@ -65,7 +63,6 @@ footer>:first-child{
   min-height: 3px;
   display: inline-block;
   vertical-align: middle;
-  /* background-color: white; */
 }
 
 .customized_line.customized_line_white{
@@ -101,7 +98,7 @@ header .navbar-default .navbar-brand:hover{
 }
 
 /* regole page_jumbotron */
-#page_jumbotron .center_container{
+#page_jumbotron.center_container{
     margin-top: 50px;
 }
 
@@ -111,8 +108,17 @@ header .navbar-default .navbar-brand:hover{
 }
 
 
-/* regole my_portfolio */
+/* regole prima parte main: my_portfolio */
 #my_portfolio img{
   max-width:100%;
   margin-bottom:30px;
+}
+
+
+/* regole seconda parte main: about_us */
+#about_us .btn-default{
+  margin-top: 15px;
+  color: white;
+  background-color: transparent;
+  border-color: white;
 }
