@@ -144,6 +144,12 @@ a.layover i{
   border-color: white;
 }
 
+#about_us .btn-default:hover{
+  color: #1ABC9C;
+  background-color: white;
+  border-color: white;
+}
+
 /* regole terza parte main */
 #contact_me .form-control{
   padding-top: 30px;
@@ -157,11 +163,20 @@ a.layover i{
   box-shadow: none;
 }
 
+#contact_me ::placeholder {
+  color: black;
+}
+
 #contact_me .btn-default{
   margin-top: 15px;
   color: white;
   background-color: #1ABC9C;
   border-color: #1ABC9C;
+}
+
+#contact_me .btn-default:hover{
+  background-color: #148f77;
+  border-color: #148f77;
 }
 
 #contact_me .row:last-child{
@@ -189,6 +204,11 @@ a.layover i{
   width: 40px;
   height: 40px;
   line-height: 40px;
+}
+
+#website_infos i:hover{
+  background-color: white;
+  color: #3A546D;
 }
 
 #website_copyright{
