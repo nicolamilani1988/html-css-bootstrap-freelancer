@@ -1,16 +1,16 @@
 /* debug */
 .container{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .row{
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 [class*="col-"], .contenitore_jumbotron{
   /* height: 100px; */
   /* background-color: pink; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 
@@ -20,13 +20,6 @@ body{
   color: white;
 }
 
-footer>:last-child{
-  background-color: #2C3E50;
-}
-
-footer>:first-child{
-  background-color: #3A546D;
-}
 
 #page_jumbotron, #about_us{
   background-color: #1ABC9C;
@@ -77,6 +70,7 @@ footer>:first-child{
 /* regole header */
 header .navbar{
   margin-bottom: 0;
+  border: none;
 }
 
 header .navbar-default{
@@ -110,7 +104,6 @@ header .navbar-default .navbar-brand:hover{
 
 /* regole prima parte main: my_portfolio */
 #my_portfolio img{
-  max-width:100%;
   margin-bottom:30px;
 }
 
@@ -148,6 +141,10 @@ header .navbar-default .navbar-brand:hover{
 }
 
 /* regole footer */
+#website_infos{
+  background-color: #3A546D;
+}
+
 #website_infos a{
   margin: 0 10px;
 }
@@ -164,4 +161,8 @@ header .navbar-default .navbar-brand:hover{
   width: 40px;
   height: 40px;
   line-height: 40px;
+}
+
+#website_copyright{
+  background-color: #2C3E50;
 }
