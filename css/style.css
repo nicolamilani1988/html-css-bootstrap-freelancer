@@ -110,7 +110,7 @@ header .navbar-default .navbar-brand:hover{
   /* margin-bottom:30px; */
 }
 
-a.layover{
+div.layover{
   background-color: #1ABC9C;
   position: absolute;
   top: 15px;
@@ -125,11 +125,11 @@ a.layover{
   color: white;
 }
 
-a.layover:hover{
+div.layover:hover{
   opacity: 0.9;
 }
 
-a.layover i{
+div.layover i{
   position: absolute;
   top: 50%;
   left: 50%;
