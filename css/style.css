@@ -40,22 +40,40 @@ footer>:first-child{
   padding-bottom: 30px;
 }
 
+.standard_text{
+  font-weight: 600;
+}
+
+.black_text{
+  color: black;
+}
+
+
+/* regole riga-stella-riga */
 .separation_icons{
   height:30px;
   line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.separation_icons i{
+  margin:0 10px;
 }
 
 .customized_line{
-  background-color: white;
   width: 10vw;
   min-height: 3px;
   display: inline-block;
   vertical-align: middle;
+  /* background-color: white; */
 }
 
-.standard_text{
-  margin-top: 5px;
-  font-weight: 600;
+.customized_line.customized_line_white{
+  background-color: white;
+}
+
+.customized_line.customized_line_black{
+  background-color: black;
 }
 
 
@@ -92,6 +110,9 @@ header .navbar-default .navbar-brand:hover{
   display: inline-block;
 }
 
-#page_jumbotron i{
-  margin:0 10px;
+
+/* regole my_portfolio */
+#my_portfolio img{
+  max-width:100%;
+  margin-bottom:30px;
 }
