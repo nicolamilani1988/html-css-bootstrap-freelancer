@@ -20,7 +20,6 @@ body{
   color: white;
 }
 
-
 #page_jumbotron, #about_us{
   background-color: #1ABC9C;
 }
@@ -28,7 +27,7 @@ body{
 .center_container{
   text-align: center;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .standard_text{
@@ -115,10 +114,8 @@ a.layover{
   right: 15px;
   bottom:30px;
   z-index: 100;
-  vertical-align: middle;
   border-radius: 6px;
   text-decoration: none;
-  padding: 15%;
   opacity: 0;
   font-size: 100px;
   color: white;
