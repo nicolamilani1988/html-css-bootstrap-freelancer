@@ -146,3 +146,22 @@ header .navbar-default .navbar-brand:hover{
 #contact_me .row:last-child{
   text-align: left;
 }
+
+/* regole footer */
+#website_infos a{
+  margin: 0 10px;
+}
+
+#website_infos .row a:last-child:only-of-type{
+  color: #1ABC9C;
+  margin: 0;
+}
+
+#website_infos i{
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
