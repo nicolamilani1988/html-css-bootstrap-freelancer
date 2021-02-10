@@ -122,3 +122,27 @@ header .navbar-default .navbar-brand:hover{
   background-color: transparent;
   border-color: white;
 }
+
+/* regole terza parte main */
+#contact_me .form-control{
+  padding-top: 30px;
+  padding-left: 0;
+  padding-bottom: 30px;
+  border-radius: 0px;
+  border-top: none;
+  border-left:none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  box-shadow: none;
+}
+
+#contact_me .btn-default{
+  margin-top: 15px;
+  color: white;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+
+#contact_me .row:last-child{
+  text-align: left;
+}
