@@ -95,24 +95,28 @@ header .navbar-default .navbar-brand:hover{
     margin-top: 50px;
 }
 
-#page_jumbotron img{
+/* #page_jumbotron img{
   width: 200px;
   display: inline-block;
-}
+} */
 
 
 /* regole prima parte main: my_portfolio */
+.immagine_container{
+  margin:15px auto;
+}
+
 #my_portfolio img{
-  margin-bottom:30px;
+  /* margin-bottom:30px; */
 }
 
 a.layover{
   background-color: #1ABC9C;
   position: absolute;
-  top: 0;
+  top: 15px;
   left:15px;
-  right: 15px;
-  bottom:30px;
+  right:15px;
+  bottom: 15px;
   z-index: 100;
   border-radius: 6px;
   text-decoration: none;
