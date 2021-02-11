@@ -30,6 +30,10 @@ body{
   padding-bottom: 50px;
 }
 
+.immagine_container{
+  max-width: 100%;
+}
+
 .standard_text{
   font-weight: 600;
 }
@@ -95,28 +99,26 @@ header .navbar-default .navbar-brand:hover{
     margin-top: 50px;
 }
 
-/* #page_jumbotron img{
-  width: 200px;
-  display: inline-block;
-} */
+#page_jumbotron img{
+  max-width: 150px;
+}
 
 
 /* regole prima parte main: my_portfolio */
-.immagine_container{
-  margin:15px auto;
+#my_portfolio .immagine_container{
+  margin:45px 30px;
 }
 
-#my_portfolio img{
-  /* margin-bottom:30px; */
-}
 
-div.layover{
+
+div.layover a{
   background-color: #1ABC9C;
+  margin:45px 30px;
   position: absolute;
-  top: 15px;
-  left:15px;
-  right:15px;
-  bottom: 15px;
+  top: 0;
+  left: 15px;
+  right: 15px;
+  bottom: 0;
   z-index: 100;
   border-radius: 6px;
   text-decoration: none;
@@ -125,7 +127,7 @@ div.layover{
   color: white;
 }
 
-div.layover:hover{
+div.layover a:hover{
   opacity: 0.9;
 }
 
